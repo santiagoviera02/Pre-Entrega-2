@@ -6,32 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Sitio Web</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Mi Sitio Web</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="width: 100%; background-color: rgb(98, 96, 96) ; color: white; padding: 10px;
+    position: top;
+    left: 1;
+    bottom: 1;">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Mi Sitio Web">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/servicio.html">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/servicios.html">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
     <div class="container mt-5">
-        <h1 class="display-4">Bienvenido a Mi Sitio Web</h1>
-        <p class="lead">Descubre nuestros increíbles productos.</p>
-        <a href="#" class="btn btn-primary btn-lg">Ver más</a>
+        <h1 class="display-4">Bienvenido a nuestro sitio web.</h1>
+        <p class="lead">Aquí encontrarás información sobre nuestros productos y servicios.</p>
+        <a href="index.html" class="btn btn-primary btn-lg">Ver Mas</a>
     </div>
+    <footer class="bg-light text-center text-lg-start mt-0">
+
+        <div class="text-center p-3" style="width: 100%; background-color: rgb(98, 96, 96) ; color: white; padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;">
+            © 2023 Copyright:
+            <a class="text-dark">| All rights reserved</a>
+        </div>
+
+    </footer>
 
 
 </body>
